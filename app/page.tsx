@@ -1,5 +1,5 @@
-import { Button } from "antd";
 import type { Metadata } from "next";
+import TopNavbar from '../app/ui/components/topNavbar'
 
 
 export const metadata: Metadata = {
@@ -10,9 +10,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div>
-      <h1 className="text-green-800">Hello EMS!!!</h1>
-      <Button type="primary" className="bg-black text-white rounded-md">Primary Button</Button>
-
+     <TopNavbar/>
     </div>
   );
 }
