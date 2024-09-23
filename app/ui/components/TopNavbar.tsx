@@ -17,7 +17,7 @@ const TopNavbar = () => {
         </h1>
         <span className="pl-12">
           <button className="text-[18px] border-none overflow-hidden shadow-none">
-          <PhoneOutlined className="mr-2" />
+          <PhoneOutlined className="mr-2 text-green-500" />
             (042) 12345678
           </button>
         </span>
@@ -25,17 +25,17 @@ const TopNavbar = () => {
           <FacebookOutlined
             type="message"
             style={{ fontSize: "25px" }}
-            className="hover:text-[#1877F2]"
+            className="hover:text-[#1877F2] text-green-500 hover:cursor-pointer"
           />
           <TwitterOutlined
             type="message"
             style={{ fontSize: "25px" }}
-            className="hover:text-[#1DA1F2]"
+            className="hover:text-[#1DA1F2] text-green-500 hover:cursor-pointer"
           />
           <LinkedinOutlined
             type="message"
             style={{ fontSize: "25px" }}
-            className="hover:text-[#0077B5]"
+            className="hover:text-[#0077B5] text-green-500 hover:cursor-pointer"
           />
         </div>
       </div>
